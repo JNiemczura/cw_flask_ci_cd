@@ -2,7 +2,7 @@ name: ci
 run-name: ${{ github.actor }} is building python unit tests
 on: [push]
 jobs:
-  run-python-tests:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
